@@ -1,0 +1,206 @@
+/* Link Colors */ 
+a:link {color:#FFFFFF;text-decoration: none;} /*  Color of the links */
+a:visited {color:#FFFFFF;text-decoration: none;} /*  Color of the visited links */
+a:hover {color:#000000;text-decoration: none;}/*  Color of links when you hover your mouse over them */;}  
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:34px }h4{font-size:20px}h5{font-size:26px}h6{font-size:16px}.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+
+/* Page background and link color */ 
+
+body { 
+background-color: #FFFFFF;
+color: #FFFFFF;			
+
+background-attachment:fixed;
+background-position:center; 
+
+
+font-family:arial,sanserif;
+}
+
+p  {font: Garamond; font-size:25px;text-left: center;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color:#989898;font-weight:normal;color:#FFFFFF}
+
+p2 {font-size:25px;text-align: left;margin: 0px 0px 0px 0px;font-style: italic; padding: 0px 0px 0px 0px;color:#FFFFFF;font-weight:bold;color:#FFFFFF}
+
+nav_links {font-size:30px;text-align: center;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color:#FFFFFF;font-weight:bold;color:#FFFFFF}
+
+div.wrapper {
+	width: 1000px;
+    	height:2000px;
+	margin: 0px 0px 0px 0px; 
+
+}
+
+
+div.main_mobile {
+
+	margin: 0px 0px 0px 20px; 
+    	background-image: url("http://www.hinkleysounds.com/images/bg_images/H1_3.png");	
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 9000px;
+}
+
+
+
+div.about_image {
+
+	margin: 0px 0px 0px 20px; 
+    	background-image: url("http://www.hinkleysounds.com/images/bg_images/H3_Mobile.png");	
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 8000px;
+
+}
+
+div.contact {
+
+	margin: 0px 0px 0px 30px; 
+	overflow:hidden; 
+    	background-image: url("http://www.hinkleysounds.com/images/bg_images/H4.png");	
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 2000px;
+}
+
+
+div.image_logo {
+    	width:900px;
+	margin: 0px 0px 0px 60px; 
+	overflow:hidden;
+    }
+
+div.logo {
+    	width:900px;
+	margin: 0px 0px 0px 0px; 
+	overflow:hidden;
+    }
+
+div.credits {
+	margin: 0px 0px 0px 10px; 
+	overflow:hidden;
+    }
+
+
+div.pic_position {
+    	width:1000px;
+    	height:2000px;
+    	text-align: center;
+	margin: 0px 0px 0px 0px; 
+	
+    }
+
+div.mobile_nav_links {
+    	width:1000px;
+	margin: 00px 0px 0px 0px; 
+	text-align: center;
+	overflow:hidden;
+	
+	
+    }
+
+div.mobile_record_image {
+ 
+ 	width:900px;
+ 	height:1350px;
+	margin: 0px 0px 0px 50px; 
+	text-align: center;
+
+    }
+    
+div.contact_wrapper {
+    	height:600px;
+    	width:800px;
+	margin: 0px 0px 30px 100px; 
+	text-align: left;
+	overflow:hidden;
+	opacity: .8;
+    	filter: alpha(opacity=80); /* For IE8 and earlier */
+    	background-color: black;
+    }
+    
+div.about {
+        	
+       	height:1000px;
+        width:850px;
+    	margin: 0px 0px 50px 70px; 
+    	text-align: left;
+    	overflow:hidden;
+    	opacity: .8;
+        filter: alpha(opacity=80); /* For IE8 and earlier */
+        background-color: black;
+    }
+    
+div.about_txt {
+    	margin: 0px 0px 60px 30px; 
+    	
+	}
+
+div.contact_txt {
+    	margin: 0px 0px 60px 0px; 
+    		text-align: center;
+	}
+    
+div.images_image {
+
+	margin: 0px 0px 0px 0px; 
+	overflow:hidden; 
+    	background-image: url("http://www.hinkleysounds.com/images/bg_images/H5_3.png");	
+	background-repeat: no-repeat;
+	width: 1000px;
+
+} 
+ 
+div.press_wrapper {
+	width: 1000px; 
+	margin: 0px 0px 0px 0px; 
+	text-align: center;
+	background-color: black;
+
+}    
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px;
+    
+}
+
+li {
+    display: inline;
+    padding: 0px 30px;
+}
+
+
+mobile_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    
+}
+
+mobile_li {
+    display: inline;
+    padding: 0px 30px;
+}
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}

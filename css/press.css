@@ -1,0 +1,119 @@
+/* Link Colors */ 
+a:link {color:#FFFFFF;text-decoration: none;} /*  Color of the links */
+a:visited {color:#FFFFFF;text-decoration: none;} /*  Color of the visited links */
+a:hover {color:#BBBBBB;text-decoration: none;}/*  Color of links when you hover your mouse over them */;}  
+
+
+
+/* Page background and link color */ 
+
+body { 
+background-color: #FFFFFF;
+color: #FFFFFF;			
+
+background-attachment:fixed;
+background-position:center; 
+
+
+font-family:arial,sanserif;
+}
+
+h3 {font: Garamond;font-size:56px;text-align: center;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;font-weight:normal;color:#FFFFFF}
+h4 {font: Garamond;font-size:30px;text-align: center; font-style: italic; margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;font-weight:normal;color:#FFFFFF}
+h5 {font: Garamond;font-size:20px;text-align: center; font-style: italic; margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;font-weight:normal;color:#FFFFFF}
+p  {font: Garamond; font-size:25px;text-align: left;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color:#989898;font-weight:normal;color:#FFFFFF}
+p2 {font-size:20px;text-align: center;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;font-weight:normal;color:#FFFFFF}
+p3 {font-size:24px;text-align: center;margin: 0px 0px 0px 0px;padding-bottom: 50px; font-weight:normal;color:#FFFFFF;text-decoration: underline;}
+
+
+h6 {font-size:26px;text-align: center;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;color:#FFFFFF;font-weight:normal;color:#FFFFFF}
+
+div.press_wrapper {
+	width: 1000px; 
+	margin: 0px 0px 0px 0px; 
+	text-align: center;
+	overflow:hidden;
+	filter: alpha(opacity=55); -moz-opacity: 100; opacity:100; 
+
+}
+
+div.press {
+
+	margin: 0px 0px 0px 40px; 
+	text-align: center;
+	overflow:hidden; 	
+	width: 950px;
+	opacity: .9;
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+    	background-color: black;
+
+}
+
+div.band_photo
+{
+	float: right; 
+	margin-top: 10px; 
+	width: 300px; 
+	height: 300px; 
+	margin: 20px;
+}
+
+div.front_cover
+{
+	float: right; 
+	margin-top: 10px; 
+	width: 300px; 
+	height: 300px; 
+	margin:30px;
+}
+
+div.downloads
+{
+	float: right; 
+	margin-top: 50px; 
+	width: 110px; 
+	height:300px; 
+	margin: 30px;
+}
+
+
+div.wrapper {
+
+width: 600px;
+margin: 0 auto;
+text-align: center;
+}	
+
+
+
+#moon {position: absolute;left:50px;top:50px}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+li {
+    display: inline;
+    padding: 10px 40px;
+}
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
